@@ -14,6 +14,8 @@ namespace nemupad
 		public frmFindReplace(string SelectedText)
 		{
 			InitializeComponent();
+			this.Icon = Properties.Resources.notepad;
+
 			txtFind.Text = SelectedText;
 		}
 
